@@ -1,0 +1,55 @@
+.DetailManga{
+    width: 90%;
+  max-width: 1800px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+
+.DetailManga .Detalles1{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+}
+
+.DetailManga .Detalles2{
+    text-align: center;
+    grid-column: span 1;
+}
+
+.DetailManga .personajesManga{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  grid-column: span 4;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.Detalles1 h1{
+  text-align: center;
+}
+
+.Detalles1 p{
+  margin-top: 80px;
+  
+}
+
+.Detalles2{
+  margin-top: 140px;
+  margin-bottom: 0px;
+}
+
+.DetailManga .MainMain{
+  grid-column: span 3;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.MainMain{
+  background: rgb(42, 42, 42);
+  color: white;
+}

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+.detailAnime {
+  width: 90%;
+  max-width: 1800px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+
+.detailAnime .Detalles1 {
+  background: rgb(255, 255, 255);
+  grid-column-start:1 ;
+  grid-column-end: 3;
+}
+
+.detailAnime .Detalles2 {
+  background: rgb(255, 255, 255);
+  text-align: center;
+  grid-column: span 1;
+}
+
+.detailAnime .Detalles1 h2 {
+  text-align: center;
+}
+
+.detailAnime .Detalles1 p {
+  text-align: start;
+}
+
+.detailAnime .Detalles2 img {
+  
+  border-radius: 3px;
+  width: 200px;
+}
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+.videoAnime{
+    margin-top: 45px;
+    margin-left: 200px;
+}
+
+.Detalles1 h2{
+    margin-bottom: 60px;
+}
+
+.detailAnime .perso{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  grid-column: span 4;
+  gap: 20px;
+}
+
+.detailAnime .voces{
+  background: rgb(42, 42, 42);
+  grid-column: span 3;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .detailAnime .Detalles1{
+      grid-column: span 1;
+      width: 350px;
+    }
+}
+
+@media screen and (max-width: 768px){
+  .detailAnime .Detalles2{
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .detailAnime .Detalles1{
+    grid-column: span 1;
+  }
+}
+
+.Detalles2 .Terminado p{
+  background: rgb(255, 85, 85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  margin-left: 200px;
+  height: 25px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.Detalles2 .aire p{
+  background: rgb(149, 228, 96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  margin-left: 200px;
+  height: 25px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+

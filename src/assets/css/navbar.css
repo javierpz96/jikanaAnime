@@ -1,0 +1,28 @@
+.containerNav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  color: white;
+  justify-content: flex-end;
+  margin-right: 80px;
+  
+}
+
+.containerNav {
+  background: rgb(255, 255, 255);
+  height: 60px;
+
+}
+
+.containerNav li{
+    margin-top: 20px;
+    color: black;
+    font-size: 17px;
+    
+    
+    
+}
+
+*{
+  text-decoration: none;
+}
